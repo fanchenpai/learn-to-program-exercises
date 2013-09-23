@@ -20,7 +20,7 @@ M  = 1000
 def modern_roman_number n
 
 	if n > 3000 || n < 1
-		puts "Please enter numbers from 1 to 3000."
+		puts "Please enter numbers between 1 and 3000."
 		return
 	end
 
