@@ -20,7 +20,7 @@ M  = 1000
 def modern_roman_number n
 
 	if n > 3000 || n < 1
-		puts "Please enter numbers between 1 and 3000."
+		puts "Please enter a number between 1 and 3000."
 		return
 	end
 
@@ -58,8 +58,8 @@ def modern_roman_number n
 	return ret.join('')
 end
 
-#x = 1
-#while x <= 1000
-#	puts x.to_s + "   " + (modern_roman_number x)
-#	x += 1
-#end
+x = 1
+while x <= 1000
+	puts x.to_s + "   " + (modern_roman_number x)
+	x += 1
+end
