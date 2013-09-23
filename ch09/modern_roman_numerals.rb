@@ -24,10 +24,10 @@ def modern_roman_number n
 		return
 	end
 
-	letterSet4 = [' ', 'CD', 'XL', 'IV']
-	letterSet9 = [' ', 'CM', 'XC', 'IX']
+	letterSet4 = ['', 'CD', 'XL', 'IV']
+	letterSet9 = ['', 'CM', 'XC', 'IX']
 	letterSet1 = ['M', 'C', 'X', 'I']
-	letterSet5 = [' ', 'D', 'L', 'V']
+	letterSet5 = ['', 'D', 'L', 'V']
 
 
 	digitSet = [n/1000, (n%1000)/100, (n%100)/10, n%10]
@@ -60,6 +60,6 @@ end
 
 x = 1
 while x <= 1000
-	puts x.to_s + "   " + (modern_roman_number x)
+	puts x.to_s + "	" + (modern_roman_number x)
 	x += 1
 end
